@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>My Starbucks experience</title>
+  <link rel="stylesheet" href="styles.css"/>
+  </head> 
+  <body>
+    <h1 id="title">My Starbucks experience</h1>
+    <p id="description"> Thank you for taking the time to help us</p>
+    <form id="survey-form">
+      
+      <label id="name-label"> Name<input placeholder="name" id="name" type="text" required/>
+      </label>
+      <br>
+      <label id="email-label">Email <input placeholder="Email" id="email" type="email" required/>
+      </label>
+      <br>
+
+      <label id="number-label"> Number<input placeholder="number" id="number" type="number" min="0" max="5000" required/>
+      </label>
+      <br>
+
+      <label for="terms-and-conditions">
+        <input type="checkbox" value="terms-and-conditions" required/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service"> terms and conditions </a>
+        </label>
+       <br>
+
+      <label for="age"> your age(years):<input id="age" type="number" name="age" min="16" max="120" required /></label>
+      <br>
+
+
+        <label for="location"> Which store did you go?:</label>
+     <select id="location" name="location">
+       <option value="">select one</option>
+       <option value="1">Broadway 17</option>   
+       <option value="2">Embankment</option>
+       <option value="3">Soho</option>
+       <option value="4">tower hill</option>
+       <option value="5">Tavistock square</option>
+       <option value="6">Palmer st.</option>
+       <option value="7">Parsons green</option>
+       <option value="8">Chelsea</option>
+       <option value="9">South Kensington</option>
+       <option value="10">Hammersmith</option>
+      
+       </select>
+       <fieldset>
+      <label for="Female"><input id="Female" type="radio" name="Sex" value="Female">Female</label>
+      <label for="Male"><input id="Male" type="radio" name="Sex" value="Male">Male</label>
+      <br>
+      
+      <label for="exprience"> How often do you come to Starbucks?: </label>
+      <select id="dropdown">
+       
+        <option value="1">1-2 time a week</option>
+        <option value="2">3-4 times a week</option>
+        <option value="3"> 1-3 times a month </option>
+        <option value="4"> every day </option>
+        </select>
+        <br>
+
+        <br>
+
+        <label for="delivery type">Eat in<input type="checkbox" value="delivery type" required/> </label>
+        <label for="delivery type">take away<input type="checkbox" value="delivery type"required/> </label>
+
+        <br>
+
+        
+        <label for="bio"> any idea of starbucks? 
+          <textarea id="bio" name="bio" rows="3"cols="30" placeholder="..."></textarea>
+          </label>
+        <button type="submit" value="submit" id="submit">
+          submit
+        </button>
+    </form>
+    
+   
+      </body>
+CSS
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  font-family: arial;
+  font-size: 15px; 
+  color: green;
+}
+
+h1,p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 20vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 2em auto;
+  
+  
+
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+  height: 20px;
+  
+}
+fieldset:last-of-type{
+  border-bottom: none;
+
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+
+}
+
+input[type="submit"]{
+  width: 50%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1rem;
+  background-color: #ffffff;
+min-width: 300px;
+}
