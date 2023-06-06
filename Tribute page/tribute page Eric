@@ -1,0 +1,20 @@
+<!DOCTYPE="html">
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="south park character" />
+      <title>
+        Eric Cartman
+      </title>  
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <main id="main">
+      <h1 id="title">Eric Cartman</h1>
+      <body>
+        <p>EEric Theodore Cartman, commonly referred to by his surname,is a fictional character in the adult animated sitcom South Park, created by Trey Parker and Matt Stone. He is voiced by Parker, and is one of the series' four main characters, alongside Stan Marsh, Kyle Broflovski, and Kenny McCormick. He first appeared with the name Kenny in the short film The Spirit of Christmas (1992), and later appeared in the 1995 film of the same title before debuting in "Cartman Gets an Anal Probe", the first episode of the series, on August 13, 1997.</p>
+        <img id="photo" src="Eric.jpg">
+      </body>
+    </main>
+  </html>
+  
