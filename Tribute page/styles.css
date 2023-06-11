@@ -1,0 +1,23 @@
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  html {
+    font-family: arial;
+    background-color: lightgrey;
+  }
+  ul{
+    background-color: white;
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+    
+  
+  }
+  body {
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+  }
